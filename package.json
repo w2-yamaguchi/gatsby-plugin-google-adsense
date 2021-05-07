@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "lint": "eslint --ext .js ./"
+    "lint": "eslint --ext .js ./",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -25,8 +26,25 @@
   },
   "homepage": "https://github.com/w2-yamaguchi/gatsby-plugin-google-adsense#readme",
   "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
     "eslint": "^7.25.0",
     "eslint-config-google": "^0.14.0",
-    "eslint-plugin-react": "^7.23.2"
+    "eslint-plugin-react": "^7.23.2",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "semantic-release": "^17.4.2"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      "@semantic-release/git"
+    ]
   }
 }
