@@ -1,0 +1,26 @@
+{
+  "name": "@w2-yamaguchi/gatsby-plugin-google-adsense",
+  "version": "1.0.0",
+  "description": "Gatsyby plugin for Google Adsense.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w2-yamaguchi/gatsby-plugin-google-adsense.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "google",
+    "adsense",
+    "google adsense"
+  ],
+  "author": "w2-yamaguchi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/w2-yamaguchi/gatsby-plugin-google-adsense/issues"
+  },
+  "homepage": "https://github.com/w2-yamaguchi/gatsby-plugin-google-adsense#readme"
+}
