@@ -4,7 +4,8 @@
   "description": "Gatsyby plugin for Google Adsense.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint --ext .js ./"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/w2-yamaguchi/gatsby-plugin-google-adsense/issues"
   },
-  "homepage": "https://github.com/w2-yamaguchi/gatsby-plugin-google-adsense#readme"
+  "homepage": "https://github.com/w2-yamaguchi/gatsby-plugin-google-adsense#readme",
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.23.2"
+  }
 }
