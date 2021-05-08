@@ -4,11 +4,6 @@ const PropTypes = require('prop-types');
 
 const endpoint = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
 
-AdsenseTag.propTypes = {
-  endpoint: PropTypes.string.isRequired,
-  publisherId: PropTypes.string.isRequired,
-};
-
 const AdsenseTag = ({endpoint, publisherId}) => (
   <script
     async
@@ -16,6 +11,11 @@ const AdsenseTag = ({endpoint, publisherId}) => (
     crossOrigin="anonymous"
   />
 );
+
+AdsenseTag.propTypes = {
+  endpoint: PropTypes.string.isRequired,
+  publisherId: PropTypes.string.isRequired,
+};
 
 exports.onRenderBody = ({setHeadComponents}, pluginOptions) => {
   const publisherId = pluginOptions.publisherId;
