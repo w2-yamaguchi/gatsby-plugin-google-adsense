@@ -1,6 +1,6 @@
 {
   "name": "@w2-yamaguchi/gatsby-plugin-google-adsense",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gatsyby plugin for Google Adsense.",
   "main": "index.js",
   "scripts": {
