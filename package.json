@@ -51,6 +51,11 @@
       "@semantic-release/github",
       "@semantic-release/git"
     ],
-    "branches": ["main"]
+    "branches": [
+      "main"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
